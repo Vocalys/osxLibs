@@ -14,13 +14,13 @@
 /* #undef AD_BACKEND_IRIX */
 
 /* No interface for sound I/O */
-/* #undef AD_BACKEND_NONE */
+#define AD_BACKEND_NONE /**/
 
 /* Use OSF interface for sound I/O */
 /* #undef AD_BACKEND_OSF */
 
 /* Use OSS interface for sound I/O */
-#define AD_BACKEND_OSS /**/
+/* #undef AD_BACKEND_OSS */
 
 /* Use OSS interface for sound I/O */
 /* #undef AD_BACKEND_OSS_BSD */
